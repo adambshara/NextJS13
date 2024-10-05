@@ -11,7 +11,7 @@ const ErroPage = ({ error, reset }: Props) => {
 
   return (
     <>
-      <div>An unexpected error has occured</div>;
+      <div>An unexpected error has occured!</div>;
       <button className="btn" onClick={() => reset()}>
         Retry
       </button>
